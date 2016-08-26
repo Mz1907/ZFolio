@@ -1,0 +1,28 @@
+ZFolioBundle\Entity\News:
+    type: entity
+    table: null
+    repositoryClass: ZFolioBundle\Repository\NewsRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        author:
+            type: string
+            length: 255
+            unique: true
+        title:
+            type: string
+            length: 255
+            unique: true
+        content:
+            type: text
+        created:
+            type: datetime
+            unique: true
+        modified:
+            type: datetime
+            unique: true
+    lifecycleCallbacks: {  }

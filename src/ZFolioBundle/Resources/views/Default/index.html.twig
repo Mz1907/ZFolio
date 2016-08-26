@@ -1,0 +1,43 @@
+{# ZFolioBundle:Form:contact.html.twig #}
+{% extends '::base.html.twig' %}
+
+{% block  body %}
+
+    <h1>Ajouter une news</h1>
+    {{ form_start(form,{action:path('z_folio_add_news')}) }}
+        
+        {{ form_label(form.name)}}
+        {{ form_widget(form.name)}}
+        {{ form_errors(form.name)}}
+        {{"<br />"}}
+        {{ form_label(form.email) }}
+        {{ form_widget(form.email)}}
+        {{ form_errors(form.email)}}
+        {{"<br />"}}
+        {{ form_label(form.phone) }}
+        {{ form_widget(form.phone)}}
+        {{ form_errors(form.phone)}}
+        {{"<br />"}}
+        {{ form_label(form.message) }}
+        {{ form_widget(form.message) }}
+        {{ form_errors(form.message) }}
+    
+    {{form_end(form)}}
+    
+    {# affichage des messages erreurs placés dans le flash bag #}
+    {% for flashMessage in app.session.flashbag.get('error') %}
+
+        {{ flashMessage }}
+
+    {% endfor %}
+    
+    {# affichage de la notice erreurs placés dans le flash bag
+        afin d'avertir l'utilisateur que le mail a bien été envoyé
+    #}
+    {% for flashMessage in app.session.flashbag.get('notice') %}
+
+        {{ flashMessage }}
+
+    {% endfor %}
+        
+{%endblock %}

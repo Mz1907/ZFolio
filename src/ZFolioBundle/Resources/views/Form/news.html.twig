@@ -1,0 +1,37 @@
+{% extends '::base.html.twig' %}
+
+{% block  body %}
+
+    <h1>Ajouter une news</h1>
+    {{ form_start(formAddNews,{action:path('z_folio_news_form_handling')}) }}
+        
+        {{ form_label(formAddNews.author)}}
+        {{ form_widget(formAddNews.author)}}
+        {{ form_errors(formAddNews.author)}}
+        {{"<br />"}}
+        {{ form_label(formAddNews.title) }}
+        {{ form_widget(formAddNews.title)}}
+        {{ form_errors(formAddNews.title)}}
+        {{"<br />"}}
+        {{ form_label(formAddNews.content) }}
+        {{ form_widget(formAddNews.content)}}
+        {{ form_errors(formAddNews.content)}}
+
+    
+    {# affichage des messages erreurs placés dans le flash bag #}
+    {% for flashMessage in app.session.flashbag.get('error') %}
+
+        {{ flashMessage }}
+
+    {% endfor %}
+    
+    {# affichage de la notice erreurs placés dans le flash bag
+        afin d'avertir l'utilisateur que le mail a bien été envoyé
+    #}
+    {% for flashMessage in app.session.flashbag.get('notice') %}
+
+        {{ flashMessage }}
+
+    {% endfor %}
+        
+{%endblock %}

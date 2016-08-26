@@ -1,0 +1,29 @@
+z_folio_homepage:
+    path:  /
+    defaults: { _controller: ZFolioBundle:Form:contactForm }
+
+#Contact
+z_folio_form_contact:
+    path:  /form/contact
+    defaults: { _controller: ZFolioBundle:Form:contactForm }
+z_folio_form_handling:
+    path:  /form/handling
+    defaults: { _controller: ZFolioBundle:Contact:contactFormHandling }
+
+#Tag
+z_folio_form_tag:
+    path: /add/tag
+    defaults: {_controller: ZFolioBundle:Form:tagForm }
+z_folio_form_tag_handling:
+    path: /tag/handling
+    defaults: {_controller: ZFolioBundle:Tag:tagFormHandling }
+
+#News
+z_folio_add_news:
+    path: /news/add
+    defaults: {_controller: ZFolioBundle:Form:newsForm }
+z_folio_news_form_handling:
+    path: /news/add
+    defaults: {_controller: ZFolioBundle:News:addNews }
+    
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Examen_php">
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/AppBundle/Entity/User.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/app/AppKernel.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/vendor/friendsofsymfony/user-bundle/Model/User.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Resources/views/Form/news.html.twig</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Resources/views/Form/contact.html.twig</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Controller/FormController.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/app/config/parameters.yml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Entity/News.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/app/config/routing.yml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/app/config/config.yml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/composer.json</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Controller/ContactController.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Resources/config/doctrine/Contact.orm.yml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Controller/NewsController.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/vendor/friendsofsymfony/user-bundle/Resources/config/routing/all.xml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Form/ContactType.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Controller/TagController.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Resources/views/Form/tag.html.twig</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/app/config/security.yml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Form/NewsType.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Form/TagType.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Entity/Contact.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/vendor/friendsofsymfony/user-bundle/Resources/config/routing/registration.xml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Repository/ContactRepository.php</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/Resources/config/services.yml</file>
+            <file>file:/C:/xampp/htdocs/ZFolio_symfony/src/ZFolioBundle/ZFolioBundle.php</file>
+        </group>
+    </open-files>
+</project-private>

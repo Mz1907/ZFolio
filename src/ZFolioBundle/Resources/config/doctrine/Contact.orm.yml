@@ -1,0 +1,27 @@
+ZFolioBundle\Entity\Contact:
+    type: entity
+    table: null
+    repositoryClass: ZFolioBundle\Repository\ContactRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '100'
+            nullable: true
+        email:
+            type: string
+            length: 255
+        message:
+            type: text
+        phone:
+            type: string
+            length: '40'
+            nullable: true
+        created:
+            type: datetime
+    lifecycleCallbacks: {  }

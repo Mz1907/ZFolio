@@ -1,0 +1,20 @@
+{# ZFolioBundle:Form:contact.html.twig #}
+{% extends '::base.html.twig' %}
+
+
+{% block  body %}
+    
+    {% if form is defined %}
+        {{ form_start(form,{action:path('z_folio_form_tag_handling')}) }}
+        {{ form_widget(form) }}
+        {{ form_end(form) }}
+    {% endif %}
+    
+    {%if tag is defined %}
+      {{dump(tag)}}
+    {% endif %}
+    {% if tag is not defined %}
+        {{'tag pas defini'}}
+    {% endif %}
+
+{% endblock %}
